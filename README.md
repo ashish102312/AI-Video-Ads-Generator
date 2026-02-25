@@ -1,6 +1,6 @@
-# AI Video Ads Generator SaaS
+# AI Video Ads Generator
 
-## Full Stack MERN (PostgreSQL) + Gemini API
+## Full Stack MERN  + Gemini API
 
 ### Features
 - Authentication (JWT based)
@@ -9,7 +9,7 @@
 - Interactive AI Video Generation Editor
 - Pricing & Subscription Interface
 - Analytics Dashboard
-- PostgeSQL schema and connection setup
+- DB schema and connection setup
 - Mocked Backend APIs suitable for expansion
 
 ### Tech Stack
@@ -20,14 +20,14 @@
 ### How to Run
 
 1. **Setup Database**
-   - Import the \`schema.sql\` into your PostgreSQL DB.
+   - Import the \`schema.sql\` into your DB.
    - Configure \`backend/.env\` with \`DATABASE_URL\` and \`JWT_SECRET\`.
 
 2. **Frontend**
    \`\`\`bash
    cd frontend
    npm install
-   npm run dev
+   npm run dev   
    \`\`\`
 
 3. **Backend**
