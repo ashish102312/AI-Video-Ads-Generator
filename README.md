@@ -30,11 +30,14 @@
    npm run dev   
    \`\`\`
 
-3. **Backend**
-   \`\`\`bash
-   cd backend
-   npm install
-   node server.js
-   \`\`\`
+3. **Backend (Spring Boot)**
+   The backend has been rewritten in Spring Boot for better performance and enterprise capabilities!
+   
+   To run it, navigate to the `backend-springboot` folder:
+   ```bash
+   cd backend-springboot
+   ./apache-maven-3.9.6/bin/mvn spring-boot:run
+   ```
+   *(Note: JDK 17+ and MongoDB must be running locally)*
 
 You can view the aesthetic, modern dark-mode enabled UI that is setup with full page routing based on the defined SaaS structure!

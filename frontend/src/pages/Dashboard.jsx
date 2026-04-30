@@ -73,7 +73,7 @@ const Dashboard = () => {
                     <h1 className="text-3xl font-bold text-slate-900 dark:text-white mb-2 min-h-[40px] flex items-center">
                         <Typewriter text={`Welcome back, ${user?.name?.split(' ')[0] || ''} 👋`} />
                     </h1>
-                    <p className="text-slate-500 dark:text-slate-400 mt-1">Here's what's happening with your videos today.</p>
+                    <p className="text-slate-500 dark:text-slate-400 mt-1">You are on your dashboard.</p>
                 </div>
                 <Link to="/editor" className="btn-primary flex items-center gap-2 whitespace-nowrap">
                     <Video className="w-5 h-5" />

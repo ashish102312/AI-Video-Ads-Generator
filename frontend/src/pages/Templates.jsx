@@ -65,7 +65,7 @@ const Templates = () => {
                     <h1 className="text-2xl font-bold text-slate-900 dark:text-white min-h-[40px] flex items-center">
                         <Typewriter text="Video Templates" />
                     </h1>
-                    <p className="text-slate-500 dark:text-slate-400 mt-1">Start from a pre-made template to generate videos faster.</p>
+                    <p className="text-slate-500 dark:text-slate-400 mt-1">You can use pre-made template to generate videos faster.</p>
                 </div>
 
                 <div className="relative w-full sm:w-64">

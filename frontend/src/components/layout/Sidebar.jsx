@@ -2,19 +2,7 @@ import React from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 import { useTheme } from '../../context/ThemeContext';
-import {
-  Home,
-  Video,
-  LayoutTemplate,
-  CreditCard,
-  BarChart,
-  Settings,
-  LogOut,
-  Menu,
-  Sun,
-  Moon,
-  Zap
-} from 'lucide-react';
+import {Home,Video,LayoutTemplate,CreditCard,BarChart,Settings,LogOut,Menu,Sun,Moon,Zap} from 'lucide-react';
 
 const Sidebar = () => {
   const { user, logout } = useAuth();

@@ -65,13 +65,13 @@ const Navbar = () => {
                                 </div>
                             </a>
 
-                            <a href="https://instagram.com/yourhandle" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-2.5 hover:bg-slate-50 dark:hover:bg-slate-800/80 rounded-lg transition-colors group">
+                            <a href="https://www.instagram.com/aa.shish_40/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-2.5 hover:bg-slate-50 dark:hover:bg-slate-800/80 rounded-lg transition-colors group">
                                 <div className="w-9 h-9 rounded-full bg-pink-50 dark:bg-pink-500/10 flex items-center justify-center text-pink-600 dark:text-pink-400 group-hover:scale-110 transition-transform">
                                     <Instagram className="w-4 h-4" />
                                 </div>
                                 <div className="text-sm">
                                     <p className="font-medium text-slate-700 dark:text-slate-300">Instagram</p>
-                                    <p className="text-xs text-slate-500 dark:text-slate-400"><a href="https://www.instagram.com/aa.shish_40/">INSTAGRAM</a></p>
+                                    <p className="text-xs text-slate-500 dark:text-slate-400">@aa.shish_40</p>
                                 </div>
                             </a>
                         </div>
