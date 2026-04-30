@@ -63,7 +63,7 @@ const AdminPanel = () => {
     const fetchAdminStats = async () => {
       try {
         const token = localStorage.getItem('token');
-        const res = await fetch('http://localhost:5001/api/v1/admin/stats', {
+        const res = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5001'}/api/v1/admin/stats`, {
           headers: { 'Authorization': `Bearer ${token}` }
         });
         const data = await res.json();
